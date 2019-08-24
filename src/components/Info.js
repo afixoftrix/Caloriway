@@ -27,13 +27,7 @@ const Info = ({ showInfo, onClick }) => {
                 </DialogTitle>
                 <DialogContent>
                     <Content>
-                        Caloriway is supposed to be an app that finds the
-                        amount of calories along a given path. The user puts
-                        in a start point and an end point and then it the
-                        app calculate calories based on how many restuarants
-                        and type of food served at those restaurants. Right
-                        now it just shows you 5 restaurants in the
-                        Portsmouth area of Virginia. #help{" "}
+                        Click on the appbar at the left part of the navigation to see a list of restaurants in the area.
                     </Content>
                 </DialogContent>
                 <DialogActions>
