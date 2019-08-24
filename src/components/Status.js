@@ -8,6 +8,11 @@ const Container = styled.div`
     display: flex;
     flex-wrap: wrap-reverse;
     height: 100%;
+    overflow: scroll;
+
+    ::-webkit-scrollbar {
+        display: none;
+    }
 
     .map-data {
         color: #aaa;
@@ -27,7 +32,8 @@ const Container = styled.div`
             padding-bottom: 20px;
             font-size: 28px;
         }
-        .restaurant-type, .restaurant-address {
+        .restaurant-type,
+        .restaurant-address {
             padding-bottom: 10px;
             font-size: 16px;
             color: #aaa;
