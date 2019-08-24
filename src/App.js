@@ -7,7 +7,6 @@ import { mapboxAPI, getRestaurants } from "./api";
 import Info from "./components/Info";
 import Status from "./components/Status";
 import search from "./search"
-//<link href='https://api.mapbox.com/mapbox-gl-js/v1.2.0/mapbox-gl.css' rel='stylesheet' />
 
 class App extends React.Component {
     state = {
