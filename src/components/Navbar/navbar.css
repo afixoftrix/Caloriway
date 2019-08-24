@@ -15,6 +15,9 @@
     display: flex;
     font-family: 'Lexend Deca', sans-serif;
 }
+.navbar-right {
+    display: flex;
+}
 .navbar-logo {
     height: 35px;
     width: auto;

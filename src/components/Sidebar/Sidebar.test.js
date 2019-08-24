@@ -16,13 +16,4 @@ describe("Sidebar Props", () => {
     it('passes props to Container component ', () => {
         expect(wrapper.find(Drawer).prop("open")).toBe(false);
     });
-
-    it('has a width of zero when show is false', () => {
-        const wrapper = mount(<Sidebar {...minProps} show={false} />);
-        console.log(wrapper.debug({ verbose: true }));
-        // expect(wrapper.find("Container").get(0).props.style).toHaveProperty(
-        //     "width",
-        //     "0"
-        // );
-    })
 });

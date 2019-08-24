@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { FaBars } from 'react-icons/fa'
+import { MdInfo } from 'react-icons/md'
 
 import './navbar.css'
 import logo from '../../assets/logo2.svg'
@@ -12,7 +13,7 @@ const SidebarBtn = styled.div`
     padding-left: 10px;
 `
 
-const Navbar = ({ iconSRC, appTitle, showNavBtn, onClick }) => {
+const Navbar = ({ iconSRC, appTitle, showNavBtn, infoClick, onClick }) => {
     return (
         <div className="navbar">
             <div className="navbar-container">
@@ -27,7 +28,11 @@ const Navbar = ({ iconSRC, appTitle, showNavBtn, onClick }) => {
                     />
                     <div className="navbar-app-title">{appTitle}</div>
                 </div>
-                <div className="navbar-right">right</div>
+                <div className="navbar-right">
+                    <SidebarBtn>
+                        <MdInfo size="1.4em" onClick={ infoClick } />
+                    </SidebarBtn>
+                </div>
             </div>
         </div>
     );
