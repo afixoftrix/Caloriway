@@ -6,7 +6,7 @@
     "@rmwc/dialog": "^5.6.0",
     "@rmwc/drawer": "^5.6.0",
     "@rmwc/list": "^5.6.0",
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.14.0",
     "react": "^16.9.0",
